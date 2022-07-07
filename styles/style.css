@@ -1,0 +1,94 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* fonts  */
+
+/* common styles  */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+/* common styles  */
+
+/* section coverpage starts */
+
+.coverpage {
+    padding-top: 42px;
+    padding-bottom: 30px;
+    background-color: #2D25A0;
+}
+
+/* section coverpage starts */
+
+/* header styles starts */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+button {
+    height: 44px;
+    width: 123px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.login button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* header styles ends */
+
+/* banner styles starts */
+.banner-container {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+
+.conmebol {
+    color: #FFFFFF;
+    font-size: 35px;
+    position: relative;
+    left: 80px;
+}
+
+.banner-img img {
+    height: 438px;
+    width: 556px;
+}
+
+.watch-live button {
+    width: 168px;
+    height: 44px;
+    position: relative;
+    bottom: 40px;
+}
+
+.watch-live button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* banner styles starts */
+
+.players-container {
+    margin-top: 70px;
+}
