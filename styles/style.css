@@ -45,6 +45,33 @@ button {
     background-color: #E02C6D;
     color: #FFFFFF;
     border: 0px;
+    transition: transform .2s;
+
+    /* animation of button  */
+    animation-name: button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    position: relative;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+@keyframes button {
+    from {
+        background-color: #E02C6D;
+    }
+
+    50% {
+        background-color: #c22fa2;
+    }
+
+    to {
+        background-color: #b518ca;
+    }
 }
 
 .login button a {
@@ -87,8 +114,10 @@ button {
     color: #FFFFFF;
 }
 
-/* banner styles starts */
+/* banner styles ends */
 
+
+/* players style starts  */
 .players-container {
     margin-top: 70px;
 }
@@ -98,8 +127,6 @@ button {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 27px;
     padding-left: 100px;
-
-
 }
 
 .player {
@@ -109,9 +136,81 @@ button {
     padding: 15px;
 }
 
+.player p {
+    color: #6C6C6C;
+}
+
 .player img {
     width: 300px;
     height: 256px;
     /* display: flex;
     padding: 15px; */
+}
+
+/* player section ends  */
+
+/* highlights section starts  */
+
+.highlights-page {
+    margin-top: 120px;
+}
+
+.highlights-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.highlights h1 {
+    font-size: 48px;
+}
+
+.highlights p {
+    position: relative;
+    bottom: 30px;
+}
+
+.watch-highlights button {
+    margin-top: 24px;
+    width: 168px;
+    height: 44px;
+    position: relative;
+    bottom: 40px;
+}
+
+.watch-highlights a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.highlight-img img {
+    width: 497px;
+    height: 357px;
+    transition: transform 0.3s;
+}
+
+.highlight-img a img:hover {
+    transform: scale(1.2);
+}
+
+/* highlights section ends  */
+
+/* ending part starts  */
+
+footer {
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.football-img img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-icon-containers img {
+    width: 32px;
+    height: 32px;
 }
