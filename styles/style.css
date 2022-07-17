@@ -214,3 +214,47 @@ footer {
     width: 32px;
     height: 32px;
 }
+
+/* ----------------------
+     Meadia Queires
+------------------------ */
+
+/* ----------------------
+        Mobile
+------------------------ */
+
+@media only screen and (max-width:767px) {
+
+    /* coverpage part starts  */
+    header {
+        display: none;
+    }
+
+    .banner-container {
+        display: block;
+    }
+
+    .banner-container h1 {
+        position: relative;
+        right: 55px;
+    }
+
+    .watch-live button {
+        position: relative;
+        right: 55px;
+    }
+
+    .banner-img img {
+        width: 329px;
+        height: 259.17px;
+        position: relative;
+        left: 16.67px;
+    }
+
+    /* coverpage part ends  */
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
